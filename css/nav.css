@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth ;
+}
+
+:root {
+  --purple: rgb(97, 103, 138); 
+}
+
+body {
+  background-color: #ffffff;
+}
+
+header, footer {
+  background-color: var(--purple);
+}
+
+h1 {
+  font-family: 'fredokaone', Arial, sans-serif;
+  font-weight: bolder;
+  color: rgb(0, 0, 0);
+}
+
+h2, h3, h4, h5, h6, p, a, li, ul {
+  font-family: 'comfortaa', sans-serif;
+  color: rgb(0, 0, 0);
+}
+
+.main-nav a {
+  top: 0;
+  text-decoration: none;
+  font-size: 2vh;
+  color: white;
+}
+
+.main-nav a:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.main-nav {
+  z-index: 100;
+  padding: 2vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  overflow: hidden;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  background-color: #61678a;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.left-nav {
+  order: 1;
+  flex-grow: 3;
+}
+
+.right-nav {
+  order: 2;
+  flex-grow: 0;
+}
+
+.right-nav a {
+  margin-left: 2vw;
+}
+
+/* footer */
+
+.main-foot {
+  margin-top: 10vh;
+  padding: 2vh;
+  text-align: center;
+  overflow: hidden;
+  position: relative; /* Set the navbar to fixed position */
+  bottom: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  background-color: #61678a !important;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.main-foot p {
+  color: white;
+}
+
+.head-gap {
+  padding: 5vh;
+}

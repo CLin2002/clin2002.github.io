@@ -1,0 +1,101 @@
+:root {
+    --gray-accent: rgb(112,128,144);
+    --lavendergray-accent: rgb(185,185,205);
+    --blurple-accent: rgb(128,149,255);
+    --white-accent: rgb(255,255,255);
+    --purple: rgb(97, 103, 137); 
+}
+
+
+.title {
+    padding-top: 10vh;
+    padding-bottom: 5vh;
+    /* background: lavender; */
+}
+
+.title h1 {
+    text-align: center;
+}
+
+/* Decorative */
+
+.line {
+    position: relative;
+    border-bottom: 0.3rem var(--purple) solid;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: .5rem;
+    padding-top: .5rem;
+}
+
+li {
+    text-align: left;
+    padding-left: 5vw;
+}
+.banner {
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 25vw;
+    width: 50%;
+    padding: 15px;
+    height:5vh;
+    text-align: center;
+    justify-content: center;
+    background-color: var(--purple);
+}
+
+.banner h1 {
+    color: white;
+}
+
+/* animated banner */
+
+.banner-block {
+    background: var(--lavendergray-accent);
+    color: var(--white-accent);
+}
+
+.banner-block a, h1{
+    color: var(--white-accent);
+}
+
+.banner-block a:hover {
+    color: var(--gray-accent);
+}
+
+#full-spread {
+    height: 100vh;
+}
+
+#full-spread img {
+    width: 40vw;
+    height: auto;
+    text-align: center;
+    align-items: center;
+    object-fit: cover;
+    height: auto;
+}
+
+#full-spread h1 {
+    margin-top: 20rem;
+    font-size: 7.5em;
+    text-align: center;
+}
+
+.arrow-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    padding-bottom: 2rem;
+}
+
+.center {
+    margin-top: 2rem;
+    text-align: center;
+    align-items: center;
+    width: 45vw;
+}
